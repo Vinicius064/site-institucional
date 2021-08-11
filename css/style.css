@@ -1,6 +1,29 @@
+/*
+****************************** TOPO ******************************
+*/
+.bg-black{
+	background: black;
+}
+
+#banner{
+	background: #4F4F4F;
+	height: 30vh;
+}
+.img-banner1, .img-banner2{
+	height: 30vh;
+}
+/*
+****************************** CORPO ******************************
+*/
+main{
+	font-family:Helvetica, arial, sans-serif;
+}
+/*
+****************************** BOTÃO WHATSAPP ******************************
+*/
 #float-whats{
 	position: fixed;
-	right: 10px;
+	right: 5px;
 	bottom: 50px;
 	height: 50px;
 	width: 50px;
@@ -10,30 +33,25 @@
 	height: 50px;
 	width: 50px;
 }
-#banner{
-	background: #4F4F4F;
-	height: 30vh;
+/*
+****************************** GALERIA ******************************
+*/
+.galery{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 0 auto;
 }
-body{
-	background: #696969
+.img-galery{
+	flex: 1 1 200px;
+	margin: 10px;
+	background: white;
 }
-/*.img-banner1{
-	border: 1px solid red;
-	height: 30vh;
-	background: url('https://www.procuroacho.com/espaco-vip/440/img/lavanderia-uniao-lavanderia-em-uberlandia-banner.jpg') no-repeat center center;
-	filter: blur(4px);
-	width: 100%;
+.img-galery img{
+	max-width: 100%;
+	display: block;
 }
-.img-banner2{
-	height: 30vh;
-	background: url('https://ilavelavanderias.com.br/wp-content/uploads/2021/05/Banner-Assinatura.png') no-repeat center center;
-	width: 100%;
-	filter: blur(4px);
-}
-.img-banner2 img{		
-	height: 100%;
-	filter: none;
-}*/
-.img-banner1, .img-banner2{
-	height: 30vh;
+.img-galery img:hover{
+	cursor: pointer;
+	box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.4);
 }
