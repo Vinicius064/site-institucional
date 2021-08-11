@@ -1,0 +1,39 @@
+#float-whats{
+	position: fixed;
+	right: 10px;
+	bottom: 50px;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+}
+#float-whats img{
+	height: 50px;
+	width: 50px;
+}
+#banner{
+	background: #4F4F4F;
+	height: 30vh;
+}
+body{
+	background: #696969
+}
+/*.img-banner1{
+	border: 1px solid red;
+	height: 30vh;
+	background: url('https://www.procuroacho.com/espaco-vip/440/img/lavanderia-uniao-lavanderia-em-uberlandia-banner.jpg') no-repeat center center;
+	filter: blur(4px);
+	width: 100%;
+}
+.img-banner2{
+	height: 30vh;
+	background: url('https://ilavelavanderias.com.br/wp-content/uploads/2021/05/Banner-Assinatura.png') no-repeat center center;
+	width: 100%;
+	filter: blur(4px);
+}
+.img-banner2 img{		
+	height: 100%;
+	filter: none;
+}*/
+.img-banner1, .img-banner2{
+	height: 30vh;
+}
